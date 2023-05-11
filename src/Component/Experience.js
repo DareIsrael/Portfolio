@@ -1,10 +1,15 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {FcApproval} from "react-icons/fc";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Experience () {
+  useEffect(() => {
+    AOS.init({duration: 1000 });
+    AOS.refresh();
+  }, []);
     return (
-        <div id='experience' className='Ex_1'>
+        <div data-aos="fade-right" id='experience' className='Ex_1'>
         <h3 className='slideh3'>My Skills</h3>
         <h1>My Experience</h1>
         <div className='Ex_2'>
@@ -34,7 +39,7 @@ function Experience () {
             </div>
           </div>
         </div>
-        <div className='Ex_3'>
+        <div  className='Ex_3'>
         <h2 className='Ex_0'>Backend Development</h2>
             <div className='Ex_4'>
               <div>

@@ -1,20 +1,27 @@
-import React from "react"
+import React, {useEffect} from "react"
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 
 function Portfolio () {
+    useEffect(() => {
+        AOS.init({duration: 1000 });
+        AOS.refresh();
+      }, []);
     return (
-        <div id="portfolio" className="port_1">
+        <div data-aos="fade-down"  id="portfolio" className="port_1">
           <h3 className="slideh3">My Recent Work</h3>
           <h1>Portfolio</h1>
             <div className="port_2">
-                <div className="port_3">
+                <div data-aos="fade-down" className="port_3">
                     <img src="house.webp"></img>
                     <h2>Real Estate Website</h2>
                     <div className="port_4">
                         <a href="https://github.com/DareIsrael"> <button>Github</button> </a>
-                        <a href="https://modern-city.vercel.app/home"><button className="livedemo">Live Demo</button></a> 
+                        <a href="https://mordern-citysite.vercel.app/home"><button className="livedemo">Live Demo</button></a> 
                     </div>
                 </div>
-                <div className="port_3">
+                <div data-aos="fade-left" className="port_3">
                     <img src="port1.webp"></img>
                     <h2>School Website</h2>
                     <div className="port_4">
@@ -22,7 +29,7 @@ function Portfolio () {
                        <a href="https://gifted-model-college.vercel.app/"><button className="livedemo">Live Demo</button></a> 
                     </div>
                 </div>
-                <div className="port_3">
+                <div data-aos="fade-right" className="port_3">
                     <img src="dog.webp"></img>
                     <h2>TingDog App</h2>
                     <div className="port_4">
@@ -30,7 +37,7 @@ function Portfolio () {
                         <a href="https://dareisrael.github.io/Tindog2/"><button className="livedemo">Live Demo</button></a> 
                     </div>
                 </div>
-                <div className="port_3">
+                <div data-aos="fade-down" className="port_3">
                     <img src="todo.webp"></img>
                     <h2>ToDoList App</h2>
                     <div className="port_4">
@@ -38,7 +45,7 @@ function Portfolio () {
                         <a href="https://my-todolistapp.onrender.com/"><button className="livedemo">Live Demo</button></a> 
                     </div>
                 </div>
-                <div className="port_3">
+                <div data-aos="zoom-up" className="port_3">
                     <img src="love.webp"></img>
                     <h2>Love Calculator</h2>
                     <div className="port_4">
@@ -46,7 +53,7 @@ function Portfolio () {
                         <a href="https://love-calculator-gikh.onrender.com/?#home/"><button className="livedemo">Live Demo</button></a> 
                     </div>
                 </div>
-                <div className="port_3">
+                <div data-aos="fade-up" className="port_3">
                     <img src="deebook.webp"></img>
                     <h2>DeeBook (Facebook mockup)</h2>
                     <div className="port_4">

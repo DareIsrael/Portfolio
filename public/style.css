@@ -1,6 +1,17 @@
 body {
-    background-image: url(background2.jpg);
+    background-image: url(background4.jpg);
+    background-size: contain;
+    backdrop-filter: blur(10px); 
     margin: 0;
+    
+}
+button {
+    border: none;
+}
+.navbar_3 ul {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
     
 }
 
@@ -21,20 +32,23 @@ body {
     gap: 2rem;
 }
 .navIcon {
-    position: fixed;
+    position: sticky;
+    right: 0;
+    left: 0;
+    bottom: 0;
     width: 100%;
-    bottom: 2rem;
+    
     font-size: 25px;
     align-items: center;
     justify-content: center;
     text-align: center;
-    opacity: 40%;
+    
     border-left: 30px;
     border-right: 30px;
     
 }
 .navIcon_1 {
-    background-color: brown;
+    background-color: rgb(115, 47, 47);
     margin: auto;
     width: 30%;
     border-radius: 100px;
@@ -45,7 +59,7 @@ body {
 }
 .navIcon_1 a {
     margin: 10px;
-    background-color: brown;
+    /* background-color: brown; */
     cursor: pointer;
     text-decoration: none;
     color: white;
@@ -75,12 +89,14 @@ ul a {
 
 .home_1 {
     display: flex;
-    gap: 15rem;
+    gap: 3rem;
     align-items: center;
+    
     justify-content: center;
     text-align: center;
     color: white;
     margin-top: 80px;
+    
 }
 .home_1 p {
     opacity: 60%;
@@ -88,8 +104,25 @@ ul a {
 .home_name {
     color: brown;
 }
+.home_2 {
+    width: 50%;
+    text-align: left;
+}
+.home_typed {
+    color: rgb(58, 21, 21);
+    
+}
+.typed {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.typed_h1{
+    font-size: 30px;
+}
 .home_2 h1 {
     font-size: 50px;
+    
 }
 .home_3 {
     margin: 10px;
@@ -104,26 +137,31 @@ ul a {
     cursor: pointer;
 }
 .buttontalk {
-    background-color: brown;
+    background-color: rgb(73, 27, 27);
+    color: white;
     font-size: 24px;
     cursor: pointer;
 }
 .home_3 button:hover {
-    background-color: brown;
+    background-color: white;
     font-size: 18px;
+    color: black;
 }
 .home_4 img {
-border-top-left-radius: 150px;
-border-bottom-right-radius: 150px;
-box-shadow: 0px 0px 10px  10px rgba(0, 0, 0, 0.967);
-height: 450px;
-width: 350px;
-transition-duration: 600ms;
+ border-top-left-radius: 150px; 
+ /* border-bottom-right-radius: 150px;  */
+ box-shadow: 0px 0px 2px  2px rgba(0, 0, 0, 0.967);
+ border-radius: 10x; 
+display: block;
+width: 350px; 
+
 }
+
 .home_4 img:hover {
-box-shadow: 0px 0px 10px  10px rgba(0, 0, 0, 0.967); 
-height: 480px;
-width: 380px;
+box-shadow: 0px 0px 2px  2px rgba(0, 0, 0, 0.967); 
+
+
+
 }
   .home_4  {
     
@@ -135,10 +173,13 @@ width: 380px;
     color: white;
     margin: 200px;
 }
-
+.about_0 h1 {
+    color: rgb(95, 28, 28);
+}
 .about_0 h3 {
     font-size: 15px;
     opacity: 60%;
+    color: rgb(114, 35, 35);
 }
 .about_1 {
     display: flex;
@@ -196,6 +237,7 @@ width: 380px;
 .about_5 h3{
     font-size: 15px;
     opacity: 60%;
+    color: rgb(103, 32, 32);
 }
 .about_5 p {
     font-size: 13px;
@@ -219,6 +261,7 @@ width: 380px;
     background-color: brown;
     font-size: 18px;
 }
+
               
     /* EXPERIENCE */
 
@@ -231,6 +274,10 @@ width: 380px;
   .Ex_1 h3 {
     font-size: 15px;
     opacity: 60%;
+    color: rgb(104, 36, 36);
+  }
+  .Ex_1 h1 {
+    color: rgb(90, 30, 30);
   }
   .Ex_0 {
     color: brown;
@@ -275,7 +322,13 @@ width: 380px;
     padding-top: 100px;
     text-align: center;
     color: white;
-}        
+}
+.service_1 h3 {
+    color: rgb(105, 35, 35);
+} 
+.service_1 h2 {
+    color: rgb(97, 28, 28);
+}       
 
 .service_2 {
     display: grid;
@@ -285,8 +338,8 @@ width: 380px;
     padding-top: 50px;
 }
 .service_3 {
-    background-color: black;
-    opacity: 50%;
+    background-color: black; 
+    opacity: 60%;
     color: white;
     border-bottom-left-radius: 20%;
     border-bottom-right-radius: 20%;
@@ -320,10 +373,12 @@ width: 380px;
        .port_1 h3 {
        font-size: 15px;
        opacity: 60%;
+       color: rgb(103, 36, 36);
        }
 
        .port_1 h1 {
         font-size: 40px;
+        color: rgb(86, 24, 24);
        }
 
        .port_2 {
@@ -380,7 +435,11 @@ width: 380px;
        }  
        .testy_1 h3 {
         opacity: 60%;
-       }          
+        color: rgb(102, 29, 29);
+       } 
+       .testy_1 h1 {
+        color: rgb(86, 23, 23);
+       }         
 
        .testy_2 {
         margin-top: 200px;
@@ -417,9 +476,11 @@ width: 380px;
 
           .contact_1 h1{
             padding-bottom: 40px;
+            color: rgb(109, 35, 35);
           }
           .contact_1 h3 {
             opacity: 70%;
+            color: rgb(81, 26, 26);
           }
 
           .contact_2 {
@@ -498,8 +559,8 @@ width: 380px;
                 text-align: center;
                 
                 background-color: brown;
-                opacity: 70%;
-                padding-bottom: 200px;
+                opacity: 60%;
+                padding-bottom: 250px;
               }
               .bright_1 h1 {
                 padding-top: 20px;
@@ -571,8 +632,8 @@ width: 380px;
     width: 600px;
    }
     .home_4 img {
-    height: 800px;
-    width: 600px;
+     height: 500px; 
+    width: 350px;
 } 
 .home_3 button {
     width: 250px;
