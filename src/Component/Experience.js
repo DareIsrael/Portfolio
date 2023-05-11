@@ -50,7 +50,7 @@ function Experience () {
               
               <div>
                 <h2> <FcApproval /> MongoDB </h2>
-                <p>Experienced </p>
+                <p>Intermediate </p>
               </div>
               <div>
                 <h2> <FcApproval /> MySQL </h2>
@@ -58,7 +58,7 @@ function Experience () {
               </div>
               <div>
                 <h2> <FcApproval /> Firebase</h2>
-                <p>Experienced </p>
+                <p>Intermediate </p>
               </div>
               <div>
                 <h2> <FcApproval /> NoSQL</h2>

@@ -22,7 +22,7 @@ function Home () {
             <div className="home_2">
                 <h3 className="slideh3">Hello I'm</h3>
                 
-                 <h1 data-aos="fade-right" >Dare  <span className="home_name"> Israel Abidemi </span> </h1>
+                 <h1  data-aos="fade-right" >Dare  <span className="home_name"> Israel Abidemi </span> </h1>
                  
                  <h2 className="typed_h1">Freelance <span className="home_typed" ref={el}> </span> </h2>
                  
@@ -35,7 +35,7 @@ function Home () {
                 </div>
             </div>
             <div className="home_4">
-                <img src="me2.jpg"></img>
+                <img src="me9.png"></img>
             </div>
         </div>
     )
