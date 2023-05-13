@@ -16,7 +16,7 @@ function About () {
           <div className="about_1">
           
           <div data-aos="fade-right"  className="about_2">
-             <img  src="me2.jpg"></img>
+             <img  src="me9.png"></img>
              </div>
              <div className="about_3">
              <div className="about_4">

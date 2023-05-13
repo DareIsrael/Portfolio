@@ -1,9 +1,10 @@
 body {
-    background-image: url(back5.jpg);
+    /* background-image: url(back5.jpg);
     background-size: cover;
     backdrop-filter: blur(10px); 
+    margin: 0; */
+    background: #081b29;
     margin: 0;
-    
     
 }
 button {
@@ -49,7 +50,8 @@ button {
     
 }
 .navIcon_1 {
-    background-color: rgb(115, 47, 47);
+    background-color: #00abf0;
+    
     margin: auto;
     width: 30%;
     border-radius: 100px;
@@ -78,11 +80,11 @@ ul a {
 }
 .navbar_4 li:hover {
     /* font-size: 24px; */
-    color: brown;
+    color: #00abf0;
 }
 
  .navli:hover {
-    border-bottom: 1px white solid;
+    border-bottom: 1px #00abf0 solid;
     
     
  }   
@@ -103,7 +105,7 @@ ul a {
     opacity: 60%;
 }
 .home_name {
-    color: rgba(120, 22, 22, 0.67);
+    color: aqua;
 }
 .home_2 {
     width: 50%;
@@ -121,7 +123,7 @@ ul a {
     font-size: 30px;
 }
 .home_typed {
-    color: brown;
+    color: #00abf0;
 }
 
 .home_2 h1 {
@@ -141,19 +143,21 @@ ul a {
     cursor: pointer;
 }
 .buttontalk {
-    background-color: rgb(73, 27, 27);
-    color: white;
+    background: #00abf0;
+    border: 2px solid #00abf0;
+    border-radius: 8px;
     font-size: 24px;
     cursor: pointer;
+    
 }
 .home_3 button:hover {
-    background-color: white;
+    background: transparent;
     font-size: 18px;
-    color: black;
+    color: white;
 }
 .home_4 {
     width: 450px;
-    box-shadow: 0px 0px 10px 10px rgb(103, 32, 32);
+    box-shadow: 0px 0px 10px 10px #00abf0;
     border-radius: 50%;
     align-items: center;
     justify-content: center;
@@ -200,9 +204,9 @@ ul a {
         transform: translateY(0);
     }
 }
-.home_4 img:hover {
+
     
-}
+
 
   .home_4  {
     
@@ -211,16 +215,16 @@ ul a {
 }  
 .about_0 {
     text-align: center;
-    color: white;
+    color: #00abf0;
     margin: 200px;
 }
 .about_0 h1 {
-    color: rgb(95, 28, 28);
+    color: #00abf0;
 }
 .about_0 h3 {
     font-size: 15px;
     opacity: 60%;
-    color: rgb(114, 35, 35);
+    color: white;
 }
 .about_1 {
     display: flex;
@@ -232,7 +236,7 @@ ul a {
     gap: 5rem;
 }
 .about_2 {
-    background-color: black;
+    background: #0c5471;
     height: 300px;
     width: 400px;
     border-radius: 20px;
@@ -240,6 +244,8 @@ ul a {
 
 .about_2 img {
     border-radius: 20px;
+    
+    border: 2px solid #00abf0;
     height: 300px;
     width: 250px;
     overflow: hidden;
@@ -267,7 +273,7 @@ ul a {
 }
 .about_5 {
     padding-top: 5px;
-    background-color: black;
+    background: #0c5471;
     width: 120px;
     height: 120px;
     padding: 20px;
@@ -275,10 +281,11 @@ ul a {
     border-radius: 20px;
     
 }
+
 .about_5 h3{
     font-size: 15px;
     opacity: 60%;
-    color: rgb(103, 32, 32);
+    color: white;
 }
 .about_5 p {
     font-size: 13px;
@@ -288,8 +295,9 @@ ul a {
     
 }
 .about_5:hover{
-    background-color: brown;
-    opacity: 60%;
+    border: 2px solid #00abf0;
+    background: transparent;
+    
 }
 
 .button {
@@ -297,10 +305,13 @@ ul a {
     height: 50px;
     margin: 10px;
     border-radius: 10px;
+    background: #00abf0;
 }
 .button:hover {
-    background-color: brown;
+    border: 2px solid #00abf0;
+    background: transparent;
     font-size: 18px;
+    color: white;
 }
 
               
@@ -315,13 +326,13 @@ ul a {
   .Ex_1 h3 {
     font-size: 15px;
     opacity: 60%;
-    color: rgb(104, 36, 36);
+    color: white;
   }
   .Ex_1 h1 {
-    color: rgb(90, 30, 30);
+    color: #00abf0;
   }
   .Ex_0 {
-    color: brown;
+    color: #00abf0;
     font-size: 27px;
   } 
 
@@ -342,7 +353,7 @@ ul a {
   .Ex_3 {
     width: 600px;
     height: 400px;
-    background-color: black;
+    background: #0c5471;
     opacity: 60%;
     color: white;
     border-radius: 20px;
@@ -350,10 +361,11 @@ ul a {
     justify-content: center;
     margin: auto;
     padding: 20px;
+    transition: 1s;
   }
   .Ex_3:hover {
-    background-color: red;
-    opacity: 50%;
+    background: transparent;
+    border: 2px solid #00abf0;
     color: white;
 }
 
@@ -365,10 +377,10 @@ ul a {
     color: white;
 }
 .service_1 h3 {
-    color: rgb(105, 35, 35);
+    color: white;
 } 
 .service_1 h2 {
-    color: rgb(97, 28, 28);
+    color: #00abf0;
 }       
 
 .service_2 {
@@ -379,15 +391,17 @@ ul a {
     padding-top: 50px;
 }
 .service_3 {
-    background-color: black; 
-    opacity: 60%;
+    background: #0c5471;
     color: white;
     border-bottom-left-radius: 20%;
     border-bottom-right-radius: 20%;
     border-top-right-radius: 100px;
     height: 300px;
-    
-    
+    transition: 1s;
+}
+.service_3:hover {
+   background: transparent;
+   border: 2px solid #00abf0;
 }
 .service_3 p {
     padding-left: 20px;
@@ -396,7 +410,7 @@ ul a {
 .service_3 h1 {
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: brown;
+    background-color: #00abf0;
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px;
     margin: 0;
@@ -413,13 +427,13 @@ ul a {
        }
        .port_1 h3 {
        font-size: 15px;
-       opacity: 60%;
-       color: rgb(103, 36, 36);
+       
+       color: white;
        }
 
        .port_1 h1 {
         font-size: 40px;
-        color: rgb(86, 24, 24);
+        color: #00abf0;
        }
 
        .port_2 {
@@ -431,7 +445,7 @@ ul a {
        }
       
        .port_3 {
-        background-color: black;
+        background-color: #0c5471;
         opacity: 70%;
         margin: 20px;
         border-radius: 20px;
@@ -460,12 +474,12 @@ ul a {
         margin-right: 10px;
         align-items: center;
         border-radius: 10px;
-        border-color: black;
+        border: 2px solid #00abf0;
         cursor: pointer;
 
        }
        .livedemo {
-        background-color: red;
+        background-color: #00abf0;
        }
 
                 
@@ -476,10 +490,10 @@ ul a {
        }  
        .testy_1 h3 {
         opacity: 60%;
-        color: rgb(102, 29, 29);
+        color: white;
        } 
        .testy_1 h1 {
-        color: rgb(86, 23, 23);
+        color: #00abf0;
        }         
 
        .testy_2 {
@@ -491,7 +505,7 @@ ul a {
        }
        .testy_4 {
         
-        background-color: black;
+        background-color: #00abf0;
         opacity: 70% ;
         color: white;
         border-radius: 20px;
@@ -503,7 +517,7 @@ ul a {
         height: 60px;
         border-radius: 50%;
         overflow: hidden;
-        border: 5px solid red;
+        border: 3px solid #0c5471;
        }
         
           /* CONTACT */
@@ -517,11 +531,11 @@ ul a {
 
           .contact_1 h1{
             padding-bottom: 40px;
-            color: rgb(109, 35, 35);
+            color: #00abf0;
           }
           .contact_1 h3 {
             opacity: 70%;
-            color: rgb(81, 26, 26);
+            color: white;
           }
 
           .contact_2 {
@@ -535,16 +549,19 @@ ul a {
             margin-bottom: 10px;
          }
           .contact_4 {
-            background-color: black;
-            opacity: 60%;
+            background-color: #0c5471;
             width: 200px;
             height: 200px;
             text-align: center;
             border-radius: 20px;
             
           }
+          .contact_4:hover {
+            background: transparent;
+            border: 2px solid #00abf0;
+          }
            .contact_4 a {
-            color: red;
+            color: #00abf0;
             text-decoration: none;
           } 
           .contact_icon {
@@ -565,7 +582,7 @@ ul a {
             background-color: black;
             opacity: 60%;
             font-size: 17px;
-            border-color: brown;
+            border: 3px solid #00abf0;
             padding-left: 20px;
             color: white;
           }
@@ -573,8 +590,8 @@ ul a {
             
           
           form textarea {
-            background-color: black;
-            border-color: brown;
+            background: #081b29;
+            border: 3px solid #00abf0;
             padding-left: 20px;
             opacity: 60%;
             margin-top: 20px;
@@ -586,7 +603,7 @@ ul a {
           form button {
             width: 170px;
             height: 50px;
-            background-color: brown;
+            background: #00abf0;
             border-radius: 15px;
             margin-top: 10px;
             font-size: 18px;
@@ -599,7 +616,7 @@ ul a {
                 align-items: center;
                 text-align: center;
                 
-                background-color: brown;
+                background-color: #00abf0;
                 opacity: 60%;
                 padding-bottom: 250px;
               }
@@ -626,11 +643,15 @@ ul a {
                 color: black;
               }
               .bright_i {
-                background-color: black;
+                background-color: #0c5471;
                 width: 70px;
                 height: 70px;
                 border-radius: 10px;
                 
+              }
+              .bright_i:hover {
+                background: transparent;
+                border: 2px solid #081b29;
               }
               
               .bright_i a {
@@ -707,7 +728,8 @@ ul a {
 
 }
 .home_3 button:hover {
-    background-color: red;
+    background-color: #0c5471;
+    border: 2px solid #00abf0;
     font-size: 18px;
 }
 .home_2 h1 {
@@ -732,7 +754,7 @@ ul a {
     
 }
 .about_2 {
-    width: 150px;
+    width: 250px;
 }
 /* .about_2 img {
     width: 300px;
@@ -792,7 +814,7 @@ ul a {
      }
     .Ex_0 {
         font-size: 50px;
-        color: brown;
+        color: #00abf0;
     }
     .Ex_1 h1 {
         font-size: 60px;
