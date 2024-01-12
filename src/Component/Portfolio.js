@@ -15,10 +15,10 @@ function Portfolio () {
             <div className="port_2">
                 <div data-aos="fade-down" className="port_3">
                     <img src="house.webp"></img>
-                    <h2>Real Estate Website</h2>
+                    <h2>Cargo Website</h2>
                     <div className="port_4">
                         <a href="https://github.com/DareIsrael"> <button>Github</button> </a>
-                        <a href="https://mordern-citysite.vercel.app/home"><button className="livedemo">Live Demo</button></a> 
+                        <a href="https://speedyspell-cargo.onrender.com"><button className="livedemo">Live Demo</button></a> 
                     </div>
                 </div>
                 <div data-aos="fade-left" className="port_3">

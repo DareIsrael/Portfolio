@@ -41,7 +41,7 @@ function Contact () {
           <BsEnvelopeAt className="contact_icon" />
          <h2>Email</h2>
          <p>dareisrael4@gmail.com</p>
-         <a href="mailto:dareisrael@gmail.com">send message</a>
+         <a href="mailto:dareisrael4@gmail.com">send message</a>
         </div>
         <div data-aos="fade-left" className="contact_4">
          <RiMessengerLine className="contact_icon" />
