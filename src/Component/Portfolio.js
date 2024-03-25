@@ -23,10 +23,10 @@ function Portfolio () {
                 </div>
                 <div data-aos="fade-left" className="port_3">
                     <img src="port1.webp"></img>
-                    <h2>School Website</h2>
+                    <h2>Bus Booking Website</h2>
                     <div className="port_4">
                     <a href="https://github.com/DareIsrael"> <button>Github</button> </a>
-                       <a href="https://gifted-model-college.vercel.app/"><button className="livedemo">Live Demo</button></a> 
+                       <a href="https://babastar-booking-web.onrender.com/"><button className="livedemo">Live Demo</button></a> 
                     </div>
                 </div>
                 <div data-aos="fade-right" className="port_3">
