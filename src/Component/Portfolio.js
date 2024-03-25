@@ -22,7 +22,7 @@ function Portfolio () {
                     </div>
                 </div>
                 <div data-aos="fade-left" className="port_3">
-                    <img src="port1.webp"></img>
+                    <img src="bus.jpeg"></img>
                     <h2>Bus Booking Website</h2>
                     <div className="port_4">
                     <a href="https://github.com/DareIsrael"> <button>Github</button> </a>
