@@ -17,7 +17,7 @@ function Portfolio () {
                     <img src="house.webp"></img>
                     <h2>Cargo Website</h2>
                     <div className="port_4">
-                        <a href="https://github.com/DareIsrael"> <button>Github</button> </a>
+                        <a href=""> <button>Github</button> </a>
                         <a href="https://speedyspell-cargo.onrender.com"><button className="livedemo">Live Demo</button></a> 
                     </div>
                 </div>
@@ -25,7 +25,7 @@ function Portfolio () {
                     <img src="bus.jpeg"></img>
                     <h2>Bus Booking Website</h2>
                     <div className="port_4">
-                    <a href="https://github.com/DareIsrael"> <button>Github</button> </a>
+                    <a href=""> <button>Github</button> </a>
                        <a href="https://babastar-booking-web.onrender.com/"><button className="livedemo">Live Demo</button></a> 
                     </div>
                 </div>
@@ -33,7 +33,7 @@ function Portfolio () {
                     <img src="dog.webp"></img>
                     <h2>TingDog App</h2>
                     <div className="port_4">
-                    <a href="https://github.com/DareIsrael"> <button>Github</button> </a>
+                    <a href=""> <button>Github</button> </a>
                         <a href="https://dareisrael.github.io/Tindog2/"><button className="livedemo">Live Demo</button></a> 
                     </div>
                 </div>
@@ -41,7 +41,7 @@ function Portfolio () {
                     <img src="todo.webp"></img>
                     <h2>ToDoList App</h2>
                     <div className="port_4">
-                    <a href="https://github.com/DareIsrael"> <button>Github</button> </a>
+                    <a href=""> <button>Github</button> </a>
                         <a href="https://my-todolistapp.onrender.com/"><button className="livedemo">Live Demo</button></a> 
                     </div>
                 </div>
@@ -49,7 +49,7 @@ function Portfolio () {
                     <img src="love.webp"></img>
                     <h2>Love Calculator</h2>
                     <div className="port_4">
-                    <a href="https://github.com/DareIsrael"> <button>Github</button> </a>
+                    <a href=""> <button>Github</button> </a>
                         <a href="https://love-calculator-gikh.onrender.com/?#home/"><button className="livedemo">Live Demo</button></a> 
                     </div>
                 </div>
@@ -57,7 +57,7 @@ function Portfolio () {
                     <img src="deebook.webp"></img>
                     <h2>DeeBook (Facebook mockup)</h2>
                     <div className="port_4">
-                    <a href="https://github.com/DareIsrael"> <button>Github</button> </a>
+                    <a href=""> <button>Github</button> </a>
                         <a href="https://deebook.vercel.app//"><button className="livedemo">Live Demo</button></a> 
                     </div>
                 </div>
