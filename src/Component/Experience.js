@@ -37,6 +37,14 @@ function Experience () {
                 <h2> <FcApproval /> React Js</h2>
                 <p>Experienced</p>
             </div>
+            <div>
+                <h2> <FcApproval /> Typescript</h2>
+                <p>Experienced</p>
+            </div>
+            <div>
+                <h2> <FcApproval /> Next js</h2>
+                <p>Experienced</p>
+            </div>
           </div>
         </div>
         <div  className='Ex_3'>
