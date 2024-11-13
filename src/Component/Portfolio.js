@@ -61,6 +61,14 @@ function Portfolio () {
                         <a href="https://deebook.vercel.app//"><button className="livedemo">Live Demo</button></a> 
                     </div>
                 </div>
+                <div data-aos="fade-up" className="port_3">
+                    <img src="https://img.freepik.com/free-photo/online-purchasing-payment-e-commerce-banking_53876-127604.jpg?semt=ais_hybrid"></img>
+                    <h2>DeeBook (Facebook mockup)</h2>
+                    <div className="port_4">
+                    <a href=""> <button>Github</button> </a>
+                        <a href="https://deliveryapp-ui.onrender.com/"><button className="livedemo">Live Demo</button></a> 
+                    </div>
+                </div>
             </div>
         </div>
     )
