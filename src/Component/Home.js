@@ -30,7 +30,7 @@ function Home () {
                 
                 <p>React web Developer</p>
                 <div className="home_3">
-                   <a href="MyWebDevCv_Resume.pdf" download><button>Download CV</button></a> 
+                   <a href="WebDev-Dare.pdf" download><button>Download CV</button></a> 
                   <a href="#contact"><button className="buttontalk">Lets Talk</button> </a> 
                 </div>
             </div>

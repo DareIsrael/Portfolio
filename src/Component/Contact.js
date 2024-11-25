@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, {useEffect, useState} from "react";
 import { BsEnvelopeAt, BsWhatsapp,  } from "react-icons/bs";
 import { RiMessengerLine } from "react-icons/ri"
 import { useRef } from 'react';
@@ -28,6 +28,27 @@ function Contact () {
     AOS.init({duration: 2000 });
     AOS.refresh();
   }, []);
+
+  // const [tryy,  setTryy] = useState ('')
+  // const [tryyy, setTryyy] = useState('')
+
+  // const test = () => {
+  //    if (tryy === "Bright") {
+  //     setTryy("Dare")
+  //     setTryyy('Good morning')
+  //    } else {
+  //     setTryy("Bright")
+  //     setTryyy("good night")
+  //    }
+  // }
+
+  // useEffect(() => {
+  //   test()
+  //   // setTryy('Jummy')
+    
+  // },[])
+     
+  
 
 
 
@@ -69,6 +90,12 @@ function Contact () {
                 <button type="submit">Send message</button>
             </form>
          </div>
+         {/* <div  >
+         <h1>{tryy}</h1>
+         <h1>{tryyy}</h1>
+         <button onClick={test}>button</button>
+         </div> */}
+         
         </div>
         </div>
     )
