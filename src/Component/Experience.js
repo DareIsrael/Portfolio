@@ -23,7 +23,7 @@ function Experience () {
             </div>
             <div>
                 <h2> <FcApproval /> CSS</h2>
-                <p>Intermediate</p>
+                <p>Experienced</p>
             </div>
             <div>
                 <h2> <FcApproval /> Javascript</h2>
@@ -58,7 +58,7 @@ function Experience () {
               
               <div>
                 <h2> <FcApproval /> MongoDB </h2>
-                <p>Intermediate </p>
+                <p>Experienced</p>
               </div>
               <div>
                 <h2> <FcApproval /> MySQL </h2>
@@ -69,7 +69,11 @@ function Experience () {
                 <p>Intermediate </p>
               </div>
               <div>
-                <h2> <FcApproval /> NoSQL</h2>
+                <h2> <FcApproval /> SQL</h2>
+                <p>Experienced </p>
+              </div>
+              <div>
+                <h2> <FcApproval />Next js</h2>
                 <p>Experienced </p>
               </div>
 

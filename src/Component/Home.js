@@ -20,7 +20,7 @@ function Home () {
     return (
         <div id="home" className="home_1">
             <div className="home_2">
-                <h3 className="slideh3">Hello I'm</h3>
+                <h3 className="slideh3">Hello, I'm</h3>
                 
                  <h1  data-aos="fade-right" >Dare  <span className="home_name"> Israel Abidemi </span> </h1>
                  
@@ -28,7 +28,7 @@ function Home () {
                  
                  
                 
-                <p>React web Developer</p>
+                <p>Full-Stack Web Developer</p>
                 <div className="home_3">
                    <a href="WebDev-Dare.pdf" download><button>Download CV</button></a> 
                   <a href="#contact"><button className="buttontalk">Lets Talk</button> </a> 
