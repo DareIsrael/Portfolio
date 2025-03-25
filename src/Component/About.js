@@ -23,7 +23,7 @@ function About () {
              <div className="about_5">
              <BsFillGeoFill className="about_icon"/>
              <h3>Experience</h3>
-             <p>3+ Years Working</p>
+             <p>5+ Years Working</p>
              </div>
              <div data-aos="fade-left" className="about_5">
              <BsFillPeopleFill className="about_icon" />

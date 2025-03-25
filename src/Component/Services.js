@@ -25,6 +25,7 @@ function Services() {
                 <p> <FcCheckmark/> CSS Styling</p>
                 <p> <FcCheckmark/> Javascript</p>
                 <p> <FcCheckmark/>Frontend frameworks, most notably React.</p>
+                <p> <FcCheckmark/> Backends Tech: Node,express, databases</p>
 
                 </div>
                 <div  className="service_3">

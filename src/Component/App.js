@@ -9,11 +9,14 @@ import Portfolio from "./Portfolio";
 import Services from "./Services";
 import Testimonials from "./Testimonials";
 import Bright from "./Bright";
+import Flower from "./flower/Flower";
+
 
 function App () {
   return (
     <div>
        <Navbar />
+       {/* <Flower /> */}
        <Home />
        <About />
        <Experience />
@@ -23,6 +26,7 @@ function App () {
        <Contact />
        <Bright />
        <NavbarDown />
+       
         
        
     </div>

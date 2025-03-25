@@ -17,8 +17,16 @@ function Portfolio () {
                     <img src="house.webp"></img>
                     <h2>Cargo Website</h2>
                     <div className="port_4">
-                        <a href=""> <button>Github</button> </a>
+                        <a href="https://github.com/DareIsrael/Speedy-frontend"> <button>Github</button> </a>
                         <a href="https://speedyspell-cargo.onrender.com"><button className="livedemo">Live Demo</button></a> 
+                    </div>
+                </div>
+                <div data-aos="fade-up" className="port_3">
+                    <img src="https://img.freepik.com/free-photo/online-purchasing-payment-e-commerce-banking_53876-127604.jpg?semt=ais_hybrid"></img>
+                    <h2>E-commerce</h2>
+                    <div className="port_4">
+                    <a href="https://github.com/DareIsrael/DeliveryApp-UI"> <button>Github</button> </a>
+                        <a href="https://www.myelectrovault.com/"><button className="livedemo">Live Demo</button></a> 
                     </div>
                 </div>
                 <div data-aos="fade-left" className="port_3">
@@ -27,6 +35,14 @@ function Portfolio () {
                     <div className="port_4">
                     <a href=""> <button>Github</button> </a>
                        <a href="https://babastar-booking-web.onrender.com/"><button className="livedemo">Live Demo</button></a> 
+                    </div>
+                </div>
+                <div data-aos="fade-right" className="port_3">
+                    <img src="todo.webp"></img>
+                    <h2>Subscription App</h2>
+                    <div className="port_4">
+                    <a href="https://github.com/DareIsrael/Ebony"> <button>Github</button> </a>
+                        <a href="https://ebony-nfi7.onrender.com"><button className="livedemo">Live Demo</button></a> 
                     </div>
                 </div>
                 <div data-aos="fade-right" className="port_3">
@@ -61,14 +77,7 @@ function Portfolio () {
                         <a href="https://deebook.vercel.app//"><button className="livedemo">Live Demo</button></a> 
                     </div>
                 </div>
-                <div data-aos="fade-up" className="port_3">
-                    <img src="https://img.freepik.com/free-photo/online-purchasing-payment-e-commerce-banking_53876-127604.jpg?semt=ais_hybrid"></img>
-                    <h2>E-commerce</h2>
-                    <div className="port_4">
-                    <a href=""> <button>Github</button> </a>
-                        <a href="https://www.myelectrovault.com/"><button className="livedemo">Live Demo</button></a> 
-                    </div>
-                </div>
+                
             </div>
         </div>
     )

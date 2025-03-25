@@ -449,6 +449,8 @@ ul a {
         opacity: 70%;
         margin: 20px;
         border-radius: 20px;
+        padding-bottom: 20px;
+        
         
         
         
@@ -956,3 +958,4 @@ form textarea {
     height: 80px;
 }
 }
+

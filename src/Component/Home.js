@@ -28,9 +28,9 @@ function Home () {
                  
                  
                 
-                <p>Full-Stack Web Developer</p>
+                <p>Full-Stack Web Developer (MERN-Stack)</p>
                 <div className="home_3">
-                   <a href="WebDev-Dare.pdf" download><button>Download CV</button></a> 
+                   <a href="Dare_Web_DevCV.pdf" download><button>Download CV</button></a> 
                   <a href="#contact"><button className="buttontalk">Lets Talk</button> </a> 
                 </div>
             </div>

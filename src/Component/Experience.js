@@ -41,10 +41,10 @@ function Experience () {
                 <h2> <FcApproval /> Typescript</h2>
                 <p>Experienced</p>
             </div>
-            <div>
+            {/* <div>
                 <h2> <FcApproval /> Next js</h2>
                 <p>Experienced</p>
-            </div>
+            </div> */}
           </div>
         </div>
         <div  className='Ex_3'>
@@ -61,7 +61,7 @@ function Experience () {
                 <p>Experienced</p>
               </div>
               <div>
-                <h2> <FcApproval /> MySQL </h2>
+                <h2> <FcApproval /> Express js </h2>
                 <p>Experienced </p>
               </div>
               <div>
@@ -72,10 +72,10 @@ function Experience () {
                 <h2> <FcApproval /> SQL</h2>
                 <p>Experienced </p>
               </div>
-              <div>
+              {/* <div>
                 <h2> <FcApproval />Next js</h2>
                 <p>Experienced </p>
-              </div>
+              </div> */}
 
             </div>
         </div>

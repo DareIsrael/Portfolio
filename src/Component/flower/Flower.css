@@ -1,0 +1,106 @@
+
+/* FlowerGrowing.css */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #87ceeb; /* Light blue sky */
+    overflow: hidden;
+  }
+  
+  .environment {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .sky {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    background: linear-gradient(to bottom, #87ceeb, #b0e0e6);
+  }
+  
+  .sun {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 80px;
+    height: 80px;
+    background-color: #ffdb58;
+    border-radius: 50%;
+    box-shadow: 0 0 50px #ffdb58;
+  }
+  
+  .ground {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30%;
+    background-color: #228b22; /* Green grass */
+  }
+  
+  .grass {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #32cd32;
+    clip-path: polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%);
+  }
+  
+  .flower {
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: height 0.1s ease-in-out;
+  }
+  
+  .stem {
+    width: 10px;
+    height: 100%;
+    background-color: #008000; /* Green stem */
+  }
+  
+  .petals {
+    width: 50px;
+    height: 50px;
+    background-color: #ff69b4; /* Pink petals */
+    border-radius: 50%;
+    transform: translateY(-50%);
+    box-shadow: 0 0 10px rgba(255, 105, 180, 0.7);
+  }
+  
+  .message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+  }
+  
+  .message h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .message p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
