@@ -18,7 +18,15 @@ function Portfolio () {
                     <h2>Cargo Website</h2>
                     <div className="port_4">
                         <a href="https://github.com/DareIsrael/Speedy-frontend"> <button>Github</button> </a>
-                        <a href="https://speedyspell-cargo.onrender.com"><button className="livedemo">Live Demo</button></a> 
+                        <a href="https://speedyspell-com.onrender.com"><button className="livedemo">Live Demo</button></a> 
+                    </div>
+                </div>
+                <div data-aos="fade-up" className="port_3">
+                    <img src="https://img.freepik.com/free-photo/online-purchasing-payment-e-commerce-banking_53876-127604.jpg?semt=ais_hybrid"></img>
+                    <h2>E-commerce</h2>
+                    <div className="port_4">
+                    <a href="https://github.com/DareIsrael/DeliveryApp-UI"> <button>Github</button> </a>
+                        <a href="https://www.michael-enterprise.com"><button className="livedemo">Live Demo</button></a> 
                     </div>
                 </div>
                 <div data-aos="fade-up" className="port_3">
@@ -34,7 +42,7 @@ function Portfolio () {
                     <h2>Bus Booking Website</h2>
                     <div className="port_4">
                     <a href=""> <button>Github</button> </a>
-                       <a href="https://babastar-booking-web.onrender.com/"><button className="livedemo">Live Demo</button></a> 
+                       <a href="https://booking-web-k1tk.onrender.com"><button className="livedemo">Live Demo</button></a> 
                     </div>
                 </div>
                 <div data-aos="fade-right" className="port_3">
@@ -42,7 +50,7 @@ function Portfolio () {
                     <h2>Subscription App</h2>
                     <div className="port_4">
                     <a href="https://github.com/DareIsrael/Ebony"> <button>Github</button> </a>
-                        <a href="https://ebony-nfi7.onrender.com"><button className="livedemo">Live Demo</button></a> 
+                        <a href="https://ebony-u6s9.onrender.com"><button className="livedemo">Live Demo</button></a> 
                     </div>
                 </div>
                 <div data-aos="fade-right" className="port_3">
@@ -58,7 +66,7 @@ function Portfolio () {
                     <h2>ToDoList App</h2>
                     <div className="port_4">
                     <a href=""> <button>Github</button> </a>
-                        <a href="https://my-todolistapp.onrender.com/"><button className="livedemo">Live Demo</button></a> 
+                        <a href="https://todo-kjyo.onrender.com"><button className="livedemo">Live Demo</button></a> 
                     </div>
                 </div>
                 <div data-aos="zoom-up" className="port_3">

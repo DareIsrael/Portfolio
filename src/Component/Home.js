@@ -7,7 +7,7 @@ function Home () {
 
     useEffect(() => {
         const typed = new Typed(el.current, {
-            strings: ["Web Developer", "Designer", "Content Creator"],
+            strings: ["Full-Stack Web Developer", "Graphic Designer", "Motion Graphic"],
             startDelay: 300,
             typeSpeed: 200,
             backDelay: 150,
@@ -24,7 +24,7 @@ function Home () {
                 
                  <h1  data-aos="fade-right" >Dare  <span className="home_name"> Israel Abidemi </span> </h1>
                  
-                 <h2 className="typed_h1">Freelance <span className="home_typed" ref={el}> </span> </h2>
+                 <h2 className="typed_h1"> <span className="home_typed" ref={el}> </span> </h2>
                  
                  
                 
